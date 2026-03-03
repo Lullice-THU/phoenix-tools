@@ -2,6 +2,17 @@
 
 **一套帮你搞副业的自动化工具！**
 
+[![Star](https://img.shields.io/github/stars/Lullice-THU/phoenix-tools?style=social)](https://github.com/Lullice-THU/phoenix-tools)
+[![Fork](https://img.shields.io/github/forks/Lullice-THU/phoenix-tools?style=social)](https://github.com/Lullice-THU/phoenix-tools/fork)
+
+---
+
+## ⭐ 如果这个项目对你有帮助
+
+请给我们点个 Star ⭐ | 推荐给朋友 | 扫码打赏 ☕
+
+你的支持是我们继续创作的动力！
+
 ---
 
 ## 📦 套餐价格
@@ -26,10 +37,30 @@
 - 统计分析（均值/最大/最小/总和）
 - 支持 CSV/Excel 格式
 
-### 3. API 服务（开发中）
-- 文本处理 API
-- 格式转换 API
-- 批量处理 API
+### 3. 批量重命名工具 ¥9.9
+- 智能批量重命名
+- 支持正则表达式
+- 预览功能
+
+### 4. 图片水印工具 ¥14.9
+- 批量添加水印
+- 支持自定义位置
+- 多种格式支持
+
+---
+
+## 🚀 快速开始
+
+```bash
+# 克隆项目
+git clone https://github.com/Lullice-THU/phoenix-tools.git
+
+# 进入目录
+cd phoenix-tools
+
+# 查看工具
+ls tools/
+```
 
 ---
 
@@ -52,7 +83,31 @@
 
 ---
 
+## 🔧 工具详细
+
+### 短视频文案生成器
+```python
+python tools/video_script_generator.py --type 开箱 --keyword 手机
+```
+
+### 数据处理助手
+```python
+python tools/data_processor.py --input data.csv --dedup --stats
+```
+
+---
+
 ## ⚠️ 声明
 
 本工具由 AI 自动生成，购买后请自行测试使用。
 如有问题，可退换货。
+
+---
+
+## 📜 License
+
+MIT License - 欢迎自由使用和修改！
+
+---
+
+**如果觉得有用，请帮我们点个 Star ⭐**
